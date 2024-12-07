@@ -3,6 +3,7 @@ import { Navbar } from "./components/navbar/Navbar";
 import FAQ from "./components/FAQ";
 import PriceCheck from "./components/PriceCheck";
 import TestimonialsSection from "./components/TestimonialSection";
+import Footer from "./components/footer/Footer";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <PriceCheck />
       <TestimonialsSection />
       <FAQ />
+      <Footer />
     </div>
   );
 };

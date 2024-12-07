@@ -35,8 +35,8 @@ export default function TestimonialsSection() {
       <p className="text-gray-700 mb-12 max-w-4xl">
         At RPC Limo, our success is measured by the satisfaction of our clients.
         We take immense pride in building lasting relationships and delivering
-        exceptional service that exceeds expectations. Here's what some of our
-        satisfied clients have to say about their experiences
+        exceptional service that exceeds expectations. Here&apos;s what some of
+        our satisfied clients have to say about their experiences
       </p>
       <Testimonials testimonials={testimonials} />
     </section>
