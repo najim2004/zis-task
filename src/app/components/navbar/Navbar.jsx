@@ -20,7 +20,7 @@ export const Navbar = () => {
             height={200}
           />
         </Link>
-        <div className="">
+        <div className="hidden lg:block">
           <Link
             href="/"
             className="text-black hover:text-white px-3 py-2 text-sm font-semibold"
