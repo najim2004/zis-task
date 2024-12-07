@@ -38,7 +38,7 @@ export default function FAQ() {
   ];
 
   return (
-    <section className="max-w-[1320px] mx-auto px-4 py-12 md:py-16">
+    <section className="max-w-[1320px] mx-auto px-4 mt-20">
       <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-8 md:mb-12">
         Frequently Asked Questions for RPC Limo Service
       </h2>
@@ -46,7 +46,7 @@ export default function FAQ() {
       <div className="space-y-4">
         {faqs.map((faq, index) => (
           <details key={index} className="group rounded-lg bg-gray-50">
-            <summary className="flex items-center gap-5 cursor-pointer py-4 hover:bg-gray-50 group-open:bg-[#E49B0F]">
+            <summary className="flex items-center gap-5 cursor-pointer py-4 hover:bg-gray-50 group-open:bg-primary">
               <span className="ml-6 flex-shrink-0">
                 <svg
                   className="w-6 h-6 text-gray-500 group-open:rotate-45 transition-transform duration-200"

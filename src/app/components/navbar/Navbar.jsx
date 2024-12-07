@@ -8,68 +8,68 @@ export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-[#E49B0F] px-4 h-[100px] flex flex-col justify-center">
+    <nav className="bg-primary px-4 h-[100px] flex flex-col justify-center">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-6">
           {/* Logo */}
-        <Link href="/" className="flex items-center">
-          <Image
-            src="https://rpclimo.com/wp-content/uploads/2017/11/fgggggg.png"
-            alt=""
-            width={200}
-            height={200}
-          />
-        </Link>
-        <div className="hidden lg:block">
-          <Link
-            href="/"
-            className="text-black hover:text-white px-3 py-2 text-sm font-semibold"
-          >
-            HOME
+          <Link href="/" className="flex items-center">
+            <Image
+              src="https://rpclimo.com/wp-content/uploads/2017/11/fgggggg.png"
+              alt=""
+              width={200}
+              height={200}
+            />
           </Link>
-          <Link
-            href="/about"
-            className="text-black hover:text-white px-3 py-2 text-sm font-semibold"
-          >
-            ABOUT
-          </Link>
-          <Link
-            href="/services"
-            className="text-black hover:text-white px-3 py-2 text-sm font-semibold"
-          >
-            SERVICES
-          </Link>
-          <Link
-            href="/fleet"
-            className="text-black hover:text-white px-3 py-2 text-sm font-semibold"
-          >
-            FLEET
-          </Link>
-          <Link
-            href="/quote"
-            className="text-black hover:text-white px-3 py-2 text-sm font-semibold"
-          >
-            GET A QUOTE
-          </Link>
-          <Link
-            href="/contact"
-            className="text-black hover:text-white px-3 py-2 text-sm font-semibold"
-          >
-            CONTACT
-          </Link>
-          <Link
-            href="/rate"
-            className="text-black hover:text-white px-3 py-2 text-sm font-semibold"
-          >
-            RATE
-          </Link>
-          <Link
-            href="/driver-login"
-            className="text-black hover:text-white px-3 py-2 text-sm font-semibold"
-          >
-            DRIVER LOGIN
-          </Link>
-        </div>
+          <div className="hidden lg:block">
+            <Link
+              href="/"
+              className="text-black hover:text-white px-3 py-2 text-sm font-semibold"
+            >
+              HOME
+            </Link>
+            <Link
+              href="/about"
+              className="text-black hover:text-white px-3 py-2 text-sm font-semibold"
+            >
+              ABOUT
+            </Link>
+            <Link
+              href="/services"
+              className="text-black hover:text-white px-3 py-2 text-sm font-semibold"
+            >
+              SERVICES
+            </Link>
+            <Link
+              href="/fleet"
+              className="text-black hover:text-white px-3 py-2 text-sm font-semibold"
+            >
+              FLEET
+            </Link>
+            <Link
+              href="/quote"
+              className="text-black hover:text-white px-3 py-2 text-sm font-semibold"
+            >
+              GET A QUOTE
+            </Link>
+            <Link
+              href="/contact"
+              className="text-black hover:text-white px-3 py-2 text-sm font-semibold"
+            >
+              CONTACT
+            </Link>
+            <Link
+              href="/rate"
+              className="text-black hover:text-white px-3 py-2 text-sm font-semibold"
+            >
+              RATE
+            </Link>
+            <Link
+              href="/driver-login"
+              className="text-black hover:text-white px-3 py-2 text-sm font-semibold"
+            >
+              DRIVER LOGIN
+            </Link>
+          </div>
         </div>
 
         {/* Mobile menu button */}
@@ -101,9 +101,11 @@ export const Navbar = () => {
           </svg>
         </button>
         <div className="hidden md:flex items-center space-x-4">
-
           {/* Phone Number */}
-          <a href="tel:1-833-711-4606" className="flex items-center text-black text-xs font-semibold">
+          <a
+            href="tel:1-833-711-4606"
+            className="flex items-center text-black text-xs font-semibold"
+          >
             <svg
               className="h-5 w-5 mr-1"
               fill="none"
@@ -125,19 +127,23 @@ export const Navbar = () => {
             href="/book"
             className="border-2 border-black text-black px-2 py-1 rounded text-center text-xs font-semibold leading-0"
           >
-            BOOK NOW<br />PAY LATER
+            BOOK NOW
+            <br />
+            PAY LATER
           </Link>
           <Link
             href="/login"
             className="border-2 border-black text-black px-2 py-1 rounded text-center text-xs font-semibold leading-0"
           >
-            ACCOUNT<br />LOGIN
+            ACCOUNT
+            <br />
+            LOGIN
           </Link>
         </div>
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden absolute top-16 left-0 right-0 bg-[#E49B0F] p-4 space-y-2">
+          <div className="md:hidden absolute top-16 left-0 right-0 bg-primary p-4 space-y-2">
             <Link
               href="/"
               className="block text-black hover:text-white px-3 py-2 text-sm font-semibold"
