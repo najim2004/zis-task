@@ -3,7 +3,7 @@ import { Clock, Plane } from "lucide-react"; // Correct import
 export default function PriceCheck() {
   return (
     <section className="max-w-[1320px] mx-auto px-4 mt-20">
-      <h2 className="text-3xl md:text-4xl text-center text-gray-900 mb-8 md:mb-12">
+      <h2 className="text-3xl md:text-4xl font-serif text-center text-gray-900 mb-8 md:mb-12">
         Quick Price Check
       </h2>
 

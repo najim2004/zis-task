@@ -39,7 +39,7 @@ export default function FAQ() {
 
   return (
     <section className="max-w-[1320px] mx-auto px-4 mt-20">
-      <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-8 md:mb-12">
+      <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-8 md:mb-12">
         Frequently Asked Questions for RPC Limo Service
       </h2>
 

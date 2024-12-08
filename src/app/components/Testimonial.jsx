@@ -24,7 +24,7 @@ export function Testimonials({ testimonials }) {
         {testimonials.map((testimonial) => (
           <SwiperSlide key={testimonial.id}>
             <div className="flex flex-col items-center">
-              <div className="bg-primary text-white p-8 rounded-lg mb-8 relative w-full max-w-3xl mx-auto text-center">
+              <div className="bg-primary text-white p-8 rounded-sm mb-8 relative w-full max-w-3xl mx-auto text-center">
                 <p className="text-lg">{testimonial.text}</p>
                 <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2">
                   <div className="w-0 h-0 border-l-[12px] border-l-transparent border-t-[16px] border-t-primary border-r-[12px] border-r-transparent" />
@@ -54,10 +54,10 @@ export function Testimonials({ testimonials }) {
       </Swiper>
       <button
         id="prev"
-        className="absolute left-0 top-1/2 -translate-y-1/2 z-10 w-12 h-12 flex items-center justify-center bg-white shadow-lg rounded-full hover:bg-gray-50 transition-colors"
+        className="absolute left-0 top-1/2 -translate-y-1/2 z-10 w-12 h-12 flex items-center justify-center bg-primary shadow-lg rounded-full transition-colors"
       >
         <svg
-          className="w-6 h-6 text-gray-800"
+          className="w-6 h-6 text-white"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -72,10 +72,10 @@ export function Testimonials({ testimonials }) {
       </button>
       <button
         id="next"
-        className="absolute right-0 top-1/2 -translate-y-1/2 z-10 w-12 h-12 flex items-center justify-center bg-white shadow-lg rounded-full hover:bg-gray-50 transition-colors"
+        className="absolute right-0 top-1/2 -translate-y-1/2 z-10 w-12 h-12 flex items-center justify-center bg-primary shadow-lg rounded-full transition-colors"
       >
         <svg
-          className="w-6 h-6 text-gray-800"
+          className="w-6 h-6 text-white"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
