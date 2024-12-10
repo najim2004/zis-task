@@ -9,7 +9,7 @@ export const SideNavbar = () => {
     <>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="md:lg p-2 text-black hover:text-white rounded-md"
+        className="lg:hidden p-2 text-black hover:text-white rounded-md"
       >
         <svg
           className="h-6 w-6"
