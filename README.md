@@ -1,5 +1,7 @@
 # ZSI-Task
 
+You can view the live project at [ZSI-Task Live](https://zsi-task.vercel.app/)
+
 ## Getting Started
 
 These instructions will help you set up and deploy the project on your local machine for development and testing purposes.
@@ -18,7 +20,7 @@ Step-by-step guide to set up the project.
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/najim2004/najim-portfolio.git
     ```
 2. Navigate to the project directory:
     ```bash
