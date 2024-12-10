@@ -24,6 +24,7 @@ const authSlice = createSlice({
     token: null,
     isLoading: false,
     error: null,
+    message: null,
   },
   reducers: {
     logout(state) {
@@ -41,10 +42,12 @@ const authSlice = createSlice({
         state.isLoading = false;
         state.user = action.payload.data.user;
         state.token = action.payload.data.token;
+        state.message = action.payload?.message || null;
+        state.error = action.payload.error || action.payload.isError || null;
       })
       .addCase(loginUser.rejected, (state, action) => {
         state.isLoading = false;
-        state.error = action.payload;
+        state.error = action.payload.error || action.payload.isError || true;
       });
   },
 });
