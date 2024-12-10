@@ -20,11 +20,11 @@ Step-by-step guide to set up the project.
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/najim2004/najim-portfolio.git
+    git clone https://github.com/najim2004/zis-task.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd your-repository
+    cd zis-task
     ```
 3. Install dependencies:
     ```bash
